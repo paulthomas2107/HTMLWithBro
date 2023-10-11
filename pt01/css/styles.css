@@ -2,3 +2,19 @@
   border: 5px solid teal;
   height: 200px;
 }
+
+.img2 {
+  border: 5px solid red;
+  height: 200px;
+}
+
+.img3 {
+  border: 5px solid black;
+  height: 200px;
+}
+
+.vid1 {
+  object-fit: initial;
+  width: 300px;
+  height: 200px;
+}
