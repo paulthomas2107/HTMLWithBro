@@ -1,0 +1,23 @@
+#container {
+  border: 2px solid;
+}
+
+#container p {
+  /* all p */
+  background-color: hsl(60, 91%, 34%);
+}
+
+#container > p {
+  /* children */
+  background-color: hsl(60, 23%, 40%);
+}
+
+#container ~ p {
+  /* Gen siblings */
+  background-color: hsl(150, 86%, 31%);
+}
+
+#container + p {
+  /* adjacent sibling */
+  background-color: hsl(303, 80%, 39%);
+}
