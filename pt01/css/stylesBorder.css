@@ -1,0 +1,19 @@
+.head1 {
+  border-style: solid;
+  border-width: 3px;
+  border-color: hsl(243, 30%, 45%);
+  border-radius: 15px;
+}
+
+.head2 {
+  border: 5px solid hsl(147, 42%, 20%);
+  border-radius: 15px;
+}
+
+p {
+  border-bottom: 3px solid hsl(0, 41%, 57%);
+  border-top: 3px solid hsl(60, 56%, 65%);
+  border-left: 3px dotted rgb(153, 14, 37);
+  border-right: 3px double hsl(0, 7%, 16%);
+  border-radius: 10px;
+}
