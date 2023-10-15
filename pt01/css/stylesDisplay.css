@@ -1,0 +1,17 @@
+body {
+  font-size: 30px;
+}
+
+div {
+  background-color: hsl(0, 87%, 64%);
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+span {
+  background-color: hsl(240, 48%, 51%);
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
