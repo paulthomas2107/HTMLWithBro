@@ -1,0 +1,25 @@
+@font-face {
+  src: url('../fonts/YoungSerif-Regular.ttf');
+  font-family: YoungSerif;
+}
+
+h1 {
+  font-family: Verdana, Arial;
+  font-size: 1em;
+}
+
+p {
+  font-family: 'American Typewriter', 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.p02 {
+  font-family: 'Roboto';
+}
+
+.p03 {
+  font-family: 'YoungSerif';
+  font-size: 2em;
+}
