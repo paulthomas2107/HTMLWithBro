@@ -1,0 +1,132 @@
+body {
+  background-color: black;
+}
+#box {
+  width: 250px;
+  height: 250px;
+  background-color: hwb(0 25% 39%);
+  font-size: 13em;
+  text-align: center;
+  /*
+  animation: slideLeft;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.28, -1.48, 0.54, 2.21);
+  */
+
+  /*
+  opacity: 0;
+  */
+}
+
+img {
+  animation: slideLeft;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-timing-function: cubic-bezier(0.28, -1.48, 0.54, 2.21);
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(1200%);
+  }
+}
+
+@keyframes slideRight {
+  to {
+    transform: translateX(1200%);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(300%);
+  }
+}
+
+@keyframes slideDown {
+  to {
+    transform: translateY(300%);
+  }
+}
+
+@keyframes rotateX {
+  100% {
+    transform: rotateX(350deg);
+  }
+}
+
+@keyframes rotateY {
+  100% {
+    transform: rotateY(350deg);
+  }
+}
+
+@keyframes rotateZ {
+  100% {
+    transform: rotateZ(350deg);
+  }
+}
+
+@keyframes rotateZ50 {
+  50% {
+    transform: rotateZ(350deg);
+  }
+}
+
+@keyframes grow {
+  100% {
+    transform: scale(2, 2);
+  }
+}
+
+@keyframes shrink {
+  50% {
+    transform: scale(0.5, 0.5);
+  }
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes colourChange {
+  0% {
+    background-color: hwb(0 25% 39%);
+  }
+  20% {
+    background-color: orange;
+  }
+  40% {
+    background-color: yellow;
+  }
+  60% {
+    background-color: green;
+  }
+  80% {
+    background-color: blue;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+@keyframes glow {
+  50% {
+    box-shadow: 0px 0px 50px hsl(63, 59%, 46%);
+  }
+}
+
+/*
+
+#box:hover {
+  animation: glow;
+  animation-duration: 3s;   
+}
+*/
